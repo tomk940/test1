@@ -1,0 +1,33 @@
+/*
+Theme Name: mesmerize Child
+Template: mesmerize
+*/
+
+/*Inner Background Color*/
+.mesmerize-inner-page .page-content, .mesmerize-inner-page .content, .mesmerize-front-page.mesmerize-content-padding .page-content {
+    background-color: #d6d6d6 !important;
+}
+
+
+
+/*Jumbotron Color*/
+h1.hero-title, p.header-subtitle {
+	color: black;
+}
+
+
+/*move the three 'service' divs down*/
+mesmerize-front-page .page-content div[data-overlap]:first-of-type > div:first-of-type {
+    margin-top: -65px;
+}
+
+/*Inner content margin from navbar*/
+.mesmerize-inner-page #page > .page-content {
+    padding-top: 2rem;
+}
+
+/*Footer Section*/
+.footer-content-lists .footer-column-black {
+    background-color: #28a8e1;
+}
+

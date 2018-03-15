@@ -1,0 +1,21 @@
+#accordion-section-boston-business_features_section .customize-control-select select#boston-business-fa-icons option,
+#accordion-section-boston-business_features_section .customize-control-select select#boston-business-fa-icons,
+.boston-business-contact-info-widget {
+    font-family: FontAwesome;
+}
+
+.boston-business-upgrade-to-pro-button {
+    border: 1px solid ;
+    color: red;
+    background: #009999;
+    color: white;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: inline-block;
+}
+a.boston-business-upgrade-to-pro-button:hover {
+    background: #666;
+    color: #fff;
+    transition: 1.5s;
+}

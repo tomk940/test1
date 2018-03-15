@@ -1,0 +1,434 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-11-22 17:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:25
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:32
+msgid "One Comment"
+msgstr ""
+
+#. %s: number of comments
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:106
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:108
+msgid "Add widgets here to appear in your Primary Sidebar."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Ubuntu, translate this to 'off'. Do not translate into your own language.
+#: functions.php:137
+msgctxt "Ubuntu: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Poppins, translate this to 'off'. Do not translate into your own language.
+#: functions.php:144
+msgctxt "Poppins: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: post title
+#: functions.php:333
+#, php-format
+msgid "<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:450
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: functions.php:455
+msgid "Jetpack"
+msgstr ""
+
+#: functions.php:460
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: functions.php:465
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Update to PRO version"
+msgstr ""
+
+#: inc/footer-widget-area.php:110
+#, php-format
+msgid "Footer Widget %d"
+msgstr ""
+
+#: inc/layout-option.php:20
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/layout-option.php:21
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/layout-option.php:22
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/layout-option.php:43
+msgid "Older/Newer Post"
+msgstr ""
+
+#: inc/layout-option.php:44
+msgid "Numeric Pagination"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:58 inc/so-widgets/latest-news/tpl/default.php:50
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:58 inc/so-widgets/latest-news/tpl/default.php:50
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:76 inc/template-tags.php:84
+msgid ", "
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:26 template-parts/content-single.php:36
+#: template-parts/content.php:56
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:34
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content.php:46
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/customizer/default.php:33
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/default.php:34
+msgid "Boston Business By Creativ Themes."
+msgstr ""
+
+#: inc/customizer/option.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/option.php:29
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/customizer/option.php:45
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer/option.php:55
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/option.php:72
+msgid "Post / Page Layout"
+msgstr ""
+
+#: inc/customizer/option.php:90
+msgid "Wide / Boxed Layout"
+msgstr ""
+
+#: inc/customizer/option.php:105
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/option.php:122
+msgid "Blog Posts Pagination Type"
+msgstr ""
+
+#: inc/customizer/option.php:133
+msgid "Excerpt Options"
+msgstr ""
+
+#: inc/customizer/option.php:151
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/option.php:164
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/option.php:181
+msgid "Footer Copyright Text 1"
+msgstr ""
+
+#: inc/customizer/option.php:196
+msgid "Footer Copyright Text 2"
+msgstr ""
+
+#: inc/customizer/option.php:210
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer/option.php:222
+msgid "Theme Hover Color"
+msgstr ""
+
+#: inc/functions/basic.php:103
+msgid "Recommended Image Size"
+msgstr ""
+
+#: inc/functions/basic.php:104
+msgid "Banner Image"
+msgstr ""
+
+#: inc/functions/custom.php:18
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/functions/custom.php:389
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/functions/custom.php:392
+msgid "404!"
+msgstr ""
+
+#: inc/functions/custom.php:495
+msgid "Home"
+msgstr ""
+
+#: inc/functions/so-widgets.php:52
+msgid "Boston Business Widgets"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:9
+msgid "Boston: Contact Address"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:11
+msgid "Displays Contact Address"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:17
+msgid "Enter Widget Title"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:21
+msgid "Enter Location"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:25
+msgid "Enter Phone Number"
+msgstr ""
+
+#: inc/so-widgets/address/address.php:29
+msgid "Enter Email"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:9
+msgid "Boston: Latest News"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:11
+msgid "Displays latest posts in grid"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:17
+msgid "Title"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:21
+#: inc/so-widgets/main-slider/main-slider.php:17
+#: inc/so-widgets/team/team.php:21
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:21
+msgid "Posts"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:25
+#: inc/so-widgets/main-slider/main-slider.php:21
+#: inc/so-widgets/team/team.php:25
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:25
+msgid "Settings"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:30
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:39
+#: inc/so-widgets/team/team.php:30
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:30
+msgid "Image Size"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:45
+#: inc/so-widgets/main-slider/main-slider.php:26
+msgid "Read More Text"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:46
+#: inc/so-widgets/main-slider/main-slider.php:27
+msgid "Read more"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:50
+#: inc/so-widgets/latest-news/latest-news.php:62
+msgid "Disable Date in Post"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:54
+msgid "Disable Comment in Post"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:58
+#: inc/so-widgets/main-slider/main-slider.php:31
+#: inc/so-widgets/team/team.php:36
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:36
+msgid "Disable Post Excerpt"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:66
+#: inc/so-widgets/main-slider/main-slider.php:35
+msgid "Disable Read More Text"
+msgstr ""
+
+#: inc/so-widgets/main-slider/main-slider.php:9
+msgid "Boston: Main Slider"
+msgstr ""
+
+#: inc/so-widgets/main-slider/main-slider.php:11
+msgid "Displays Full Width Slider"
+msgstr ""
+
+#: inc/so-widgets/team/team.php:9
+msgid "Boston: Team"
+msgstr ""
+
+#: inc/so-widgets/team/team.php:11
+msgid "Displays team member carousel"
+msgstr ""
+
+#: inc/so-widgets/team/team.php:17
+msgid "Enter Team Section Title"
+msgstr ""
+
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:9
+msgid "Boston: Testimonial Slider"
+msgstr ""
+
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:11
+msgid "Displays Client Testimonial carousel"
+msgstr ""
+
+#: inc/so-widgets/testimonial-slider/testimonial-slider.php:17
+msgid "Enter Section Title"
+msgstr ""
+
+#: inc/so-widgets/latest-news/tpl/default.php:50
+msgid "No Comment"
+msgstr ""
+
+#. Name of the theme
+msgid "Boston Business"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Boston Business is a clean, modern and responsive WordPress theme with a pre-"
+"built demo which can be imported in few seconds from demo content xml file "
+"which you can download from our website. This theme uses SiteOrigin’s Page "
+"Builder Plugin that makes theme more user-friendly. This theme is perfect "
+"for your business website. Additionally, theme features include multiple "
+"blog layouts, full width layouts, color picker options etc."
+msgstr ""
+
+#. URI of the theme
+msgid "http://creativthemes.com/downloads/boston-business/"
+msgstr ""
+
+#. Author of the theme
+msgid "Creativ Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://creativthemes.com/"
+msgstr ""

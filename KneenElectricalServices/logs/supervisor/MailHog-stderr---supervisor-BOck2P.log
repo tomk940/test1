@@ -1,0 +1,65 @@
+2018/03/15 09:17:34 Using in-memory storage
+2018/03/15 09:17:34 [SMTP] Binding to address: 0.0.0.0:1025
+2018/03/15 09:17:34 Serving under http://:1080/
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Starting session
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 16 bytes: 'EHLO localhost\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: ESTABLISH] In ESTABLISH state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 21 bytes: '250-Hello localhost\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 16 bytes: '250-PIPELINING\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 35 bytes: 'MAIL FROM:<www-data@6f9cc12c7256>\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@6f9cc12c7256>
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@6f9cc12c7256>'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] In MAIL state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 37 bytes: '250 Sender www-data@6f9cc12c7256 ok\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] In RCPT state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] Got RCPT command
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 6 bytes: 'DATA\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] Processing line: DATA
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] In RCPT state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: RCPT] Got DATA command, switching to DATA state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 713 bytes: 'To: tomk940@hotmail.com\r\nSubject: Kneen Electrical Services Web Enquiry\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Thu, 15 Mar 2018 11:50:43 +0000\r\nFrom: tom kneen <wordpress@kneenelectricalservices.local>\r\nReply-To: tomk940@hotmail.com\r\nMessage-ID: <829165c06f14a7d5465786338a155817@kneenelectricalservices.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nFrom: tom kneen <tomk940@hotmail.com>\r\nKneen Electrical Services Web Enquiry\r\n\r\nEnquiry:\r\nlots of stuff\r\n\r\n\r\ntom kneen\r\n[number]\r\n-- \r\nThis e-mail was sent from a contact form on Kneen Electrical Services (http://kneenelectricalservices.local)\r\n\r\n.\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2018/03/15 11:50:43 Parsing Content from string: 'To: tomk940@hotmail.com
+Subject: Kneen Electrical Services Web Enquiry
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Thu, 15 Mar 2018 11:50:43 +0000
+From: tom kneen <wordpress@kneenelectricalservices.local>
+Reply-To: tomk940@hotmail.com
+Message-ID: <829165c06f14a7d5465786338a155817@kneenelectricalservices.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: tom kneen <tomk940@hotmail.com>
+Kneen Electrical Services Web Enquiry
+
+Enquiry:
+lots of stuff
+
+
+tom kneen
+[number]
+-- 
+This e-mail was sent from a contact form on Kneen Electrical Services (http://kneenelectricalservices.local)
+'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Storing message xx0eQdb3rsD8pmkaklJongli7n4KbWtFsX7m29SoQNY=@mailhog.example
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 80 bytes: '250 Ok: queued as xx0eQdb3rsD8pmkaklJongli7n4KbWtFsX7m29SoQNY=@mailhog.example\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Received 6 bytes: 'QUIT\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] Processing line: QUIT
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Sent 9 bytes: '221 Bye\r\n'
+2018/03/15 11:50:43 [SMTP 127.0.0.1:49912] Session ended
